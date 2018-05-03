@@ -5,22 +5,129 @@
     <meta charset="utf-8">
     <title>Freelancer</title>
     <link rel="stylesheet" href="css/main.css">
-    <link href="https://fonts.googleapis.com/css?family=Lato|Montserrat" rel="stylesheet">tserrat" rel="stylesheet">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Lato|Montserrat" rel="stylesheet">
   </head>
   <body>
-    <header>
-      <h1>START BOOTSTRAP</h1>
-      <nav>
-        <a href="#">PORTFOLIO</a>
-        <a href="#">ABOUT</a>
-        <a href="#">CONTACT</a>
+    <header class="fixed header">
+      <h1 class="logo">START BOOTSTRAP</h1>
+      <nav class="navbar">
+        <li><a href="#">PORTFOLIO</a></li>
+        <li><a href="#">ABOUT</a></li>
+      <li><a href="#">CONTACT</a></li>
       </nav>
     </header>
-    <div>
-      <img src="assets/images/profile.png" alt="profile">
-    </div>
-
-
-
+    <section class="profile">
+      <article class="row">
+        <img src="assets/images/profile.png" alt="profile">
+      </article>
+      <article class="row">
+              <h2>START BOOTSTRAP</h2>
+      </article>
+      <div class="row estrella">
+        <hr class="rayita">
+        <i class="fas fa-star"></i>
+        <hr class="rayita">
+      </div>
+      <article class="banner">
+        <span>Web Developer</span>
+        <span>-</span>
+        <span>Grafic Artist</span>
+        <span>-</span>
+        <span>User Experiencie Designer</span>
+      </article>
+    </section>
+    <section class="portfolio">
+      <h2>Portfolio</h2>
+      <div class="row estrella gray">
+        <hr class="rayita">
+        <i class="fas fa-star"></i>
+        <hr class="rayita">
+      </div>
+      <section class="projects">
+        <article><img src="assets/images/portfolio/cabin.png" alt="cabin"></article>
+        <article><img src="assets/images/portfolio/cake.png" alt="cake"></article>
+        <article><img src="assets/images/portfolio/circus.png" alt="circus"></article>
+        <article><img src="assets/images/portfolio/game.png" alt="game"></article>
+        <article><img src="assets/images/portfolio/safe.png" alt="safe"></article>
+        <article<img src="assets/images/portfolio/submarine.png" alt="submarine"></article>
+      </section>
+    </section>
+    <section class="About white-color center">
+      <h2>About</h2>
+      <div class="row estrella">
+            <hr class="rayita">
+            <i class="fas fa-star"></i>
+            <hr class="rayita">
+      </div>
+      <div class="row">
+        <article class="description">
+          <p>Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional LESS stylesheets for easy customization.</p>
+          <p>Whether you're a student looking to showcase your work, a professional looking to attract clients, or a graphic artist looking to share your projects, this template is the perfect starting point!</p>
+        </article>
+      </div>
+      <div class="row">
+                  <a href="" class="button transparent">
+                      <i class="fas fa-download white-color"></i>
+                      Download Theme
+                  </a>
+              </div>
+          </section>
+          <section class="contact-me">
+              <h2>Contact Me</h2>
+              <div class="row estrella gray-color">
+                  <hr class="rayita">
+                  <i class="fas fa-star"></i>
+                  <hr class="rayita">
+              </div>
+              <form action="#">
+                  <div class="input-field">
+                      <label for="contact-name">Name</label>
+                      <input type="text" name="" id="contact-name">
+                  </div>
+                  <div class="input-field">
+                      <label for="email">Email Address</label>
+                      <input type="text" name="" id="email">
+                  </div>
+                  <div class="input-field">
+                      <label for="phone">Phone Number</label>
+                      <input type="text" name="" id="phone">
+                  </div>
+                  <div class="input-field">
+                      <label for="">Message</label>
+                      <textarea type="text" name="" id="message"></textarea>
+                  </div>
+                  <div class="input-field">
+                      <div class="cont">
+                          <a href="#" class="button bgd-green white-color">Send</a>
+                      </div>
+                  </div>
+              </form>
+          </section>
+          <footer class="white-color">
+              <section>
+                  <h3>Location</h3>
+                  <address class="content-contact">
+                    2215 John Daniel Drive Clark, MO 65243
+                  </address>
+              </section>
+              <section>
+                  <h3>Around The Web</h3>
+                  <div class="social content-contact">
+                      <span class="circle"><i class="fab fa-facebook-f"></i></span>
+                      <span class="circle"><i class="fab fa-google-plus-g"></i></span>
+                      <span class="circle"><i class="fab fa-twitter"></i></span>
+                      <span class="circle"><i class="fab fa-linkedin-in"></i></span>
+                      <span class="circle"><i class="fab fa-dribbble"></i></span>
+                  </div>
+              </section>
+              <section>
+                  <h3>About Freelancer</h3>
+                  <div class="content-contact">Freelance is a free to use, open source Bootstrap theme created by Start Bootstrap.</div>
+              </section>
+              <div class="copy">
+                  <small>Copyright &copy; memeCast 2018-1</small>
+              </div>
+          </footer>
   </body>
 </html>
